@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0);
+}
+nav li a {
+  margin-left: 90px;
+  border-radius: 50px;
+  background-color: #96c2dbcb;
+  box-shadow: 10px 10px 8px #292828;
+  text-shadow: 1px 1px 2px #292828;
+}
+
+nav li a:hover {
+  background-color: #103955;
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 8px #292828;
+  border: 2px solid white;
+}
+
+#content section {
+  background-color: rgba(20, 19, 19, 0.5);
+  padding: 60px;
+  box-shadow: 10px 10px 8px #292828;
+}
+
+#content .btn,
+#popup1 .btn {
+  color: #fff;
+  background: rgb(238, 48, 79);
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #292828;
+}
+
+#content .btn:hover,
+#popup1 .btn:hover {
+  background-color: rgb(9, 54, 90);
+  border: 2px solid white;
+}
+.modal {
+  color: black;
+}
+
+.modal .modal-header {
+  background-color: rgb(209, 101, 12);
+}
+.modal .modal-body {
+  background-color: rgb(235, 142, 20);
+}
+
+.modal .box {
+  border-radius: 5px;
+  border: 4px solid rgb(24, 23, 23);
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.modal .box .btn {
+  margin: 5px;
+}
+
+.modal i {
+  font-size: 45px;
+}
+
+#home h2 {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
